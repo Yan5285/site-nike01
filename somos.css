@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+  }
+  
+  .content {
+     max-width:450px; 
+  }
+  
+  img {
+     max-width:500px; 
+  }
+  
+  .productButton {
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .productButton:hover {
+    background-color: white;
+    color: black;
+  }
+
+.Imgjordan{
+    max-width:100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
